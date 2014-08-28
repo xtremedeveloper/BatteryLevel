@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BatteryLevel</string>
+    <string name="action_about">About</string>
+    <string name="action_text">This is an experiment on TTS \n@blue-grapes</string>
+    <string name="unit">%</string>
+    <string name="charging">Charging</string>
+
+</resources>

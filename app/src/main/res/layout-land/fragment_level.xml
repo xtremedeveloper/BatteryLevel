@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:levelView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bg.batterylevel.LevelFragment">
+
+    <com.bg.batterylevel.LevelView
+        android:id="@+id/fragment_level_view"
+        levelView:value="80"
+        levelView:unit="@string/unit"
+        levelView:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
